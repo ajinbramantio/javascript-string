@@ -13,7 +13,7 @@ function convertName(name) {
   const result = splittedNames.map(text => {
     return text.charAt(0).toUpperCase() + text.slice(1)
   })
-  console.log(result)
+  return result.toString()
 
   // let result2 = []
 
